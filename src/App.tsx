@@ -24,7 +24,6 @@ function App() {
       // Generate completely random percentage (0-100)
       const percentage = Math.floor(Math.random() * 101);
       
-      let percentage: number;
       let comment = '';
       let status: 'high' | 'medium' | 'low' | 'zero' = 'medium';
       
